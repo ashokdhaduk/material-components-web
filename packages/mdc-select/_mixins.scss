@@ -82,6 +82,16 @@
     @include helper-text-mixins.disabled-helper-text-color(variables.$disabled-helper-text-color, $query: $query);
     @include icon-mixins.disabled-icon-color(variables.$disabled-icon-color, $query: $query);
 
+    // High-contrast mode support
+     @media screen and (-ms-high-contrast: active) {
+      @include disabled-ink-color(GrayText, $query: $query);
+      @include disabled-dropdown-icon-color(red, $query: $query);
+      @include disabled-label-color(GrayText, $query: $query);
+      @include disabled-bottom-line-color(GrayText, $query: $query);
+      @include disabled-outline-color(GrayText, $query: $query);
+      @include helper-text-mixins.disabled-helper-text-color(GrayText, $query: $query);
+    }
+
     // Floating label private mixin
     @include floating-label_($query: $query);
 
