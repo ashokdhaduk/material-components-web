@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.1.0](https://github.com/ashokdhaduk/material-components-web/compare/v14.0.0...v14.1.0) (2025-01-27)
+
+
+### Bug Fixes
+
+* circular progress no longer cause dialogs to be scrollable ([9290bd3](https://github.com/ashokdhaduk/material-components-web/commit/9290bd3b0b919a022d6ff0cfd1c27bb66f7fd44b))
+* **formfield:** Change cursor style on label to `inherit` rather than `auto` to adopt customization. ([4b35cb7](https://github.com/ashokdhaduk/material-components-web/commit/4b35cb7d05ac0abf313963370ee2f4b20456df45))
+* **formfield:** Fix for [#8187](https://github.com/ashokdhaduk/material-components-web/issues/8187) (rolling back the errant commit) ([2f5b899](https://github.com/ashokdhaduk/material-components-web/commit/2f5b899bc1a7e6dc4015186eed59d937aeb2d743))
+* **select:** <fix inherited ellipsis color for list items in selects> ([c43b343](https://github.com/ashokdhaduk/material-components-web/commit/c43b3438b4b7eeb777072525f9ae07c97d27c0bb))
+* **select:** add separate touch target element to Select to maintain size even when shrunk ([453a624](https://github.com/ashokdhaduk/material-components-web/commit/453a6248a0088c8243852fd20f83fa50c71f3a5f))
+* `aria label` lint error in strings ([7f224dd](https://github.com/ashokdhaduk/material-components-web/commit/7f224ddd44f8ee0d2203103dd4ce6b2886dba72c))
+
+
+### Features
+
+* **banner:** Add Theming API support for graphic color and background color ([a0b8a90](https://github.com/ashokdhaduk/material-components-web/commit/a0b8a90c08a471b845dccc8a471bdd9650f61510))
+* **banner:** Add Theming API support for max width and z-index ([e50b478](https://github.com/ashokdhaduk/material-components-web/commit/e50b478eb6ce6d54f0487a86572a20c645fac6c2))
+* **dialog:** Add a chaining class that suppresses scrim animations. ([819498d](https://github.com/ashokdhaduk/material-components-web/commit/819498d8c9bd8c5c72d2f7b12ec082795b6628d1))
+* **focus-ring:** Add RTL support to focus ring mixin. ([65c10a6](https://github.com/ashokdhaduk/material-components-web/commit/65c10a622f0c2aee07daeccb7fa66109ba43db98))
+* **focus-ring:** Update $ring-radius to support list type values  so a focus ring can follow custom shapes ([311f29a](https://github.com/ashokdhaduk/material-components-web/commit/311f29a60e0008ea8480d5fa418e570a96b6e694))
+* **map-ext:** Rename `map-ext.map-get-or-err()` to `map-ext.get()` ([68edc03](https://github.com/ashokdhaduk/material-components-web/commit/68edc03c6b3b66bb2b92ea69ed28bf12f8b9b66d))
+* **menu:** HCM border-radius is no longer clipped ([6160219](https://github.com/ashokdhaduk/material-components-web/commit/6160219ff039dac7666f8cb04c53f7eb89e2062b))
+* **textfield:** $custom-property-prefix is no longer private variable (same as outlined textfield). ([d76666a](https://github.com/ashokdhaduk/material-components-web/commit/d76666ad4c53a619946d70b3991ca35ae5d87d04))
+* **tooltip:** Add mixin to set max-width of rich tooltip. ([cfec83c](https://github.com/ashokdhaduk/material-components-web/commit/cfec83c749a1b6b6602c4d2fa474d3e776e7c97b))
+* **tooltip:** Fix rich tooltip title alignment (multiline titles should be start aligned). ([099ea3a](https://github.com/ashokdhaduk/material-components-web/commit/099ea3aa775d595a48f68e4e53ef7c69a12ef0a5))
+
+
+
+
+
 # [14.0.0](https://github.com/material-components/material-components-web/compare/v13.0.0...v14.0.0) (2022-04-27)
 
 
